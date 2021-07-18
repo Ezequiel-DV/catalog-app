@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import CommonButton from "./components/Common/Button"
+import Filters from "./components/Filters"
+import {Box} from "@chakra-ui/react"
+import Item from "./components/Item"
+import loadItems from "./data/items.json"
+import { useState, useEffect } from "react"
 
 function App() {
+  const [items, setItems] = useState(loadItems);
+  const [activeFilter, setActiveFilter] = useState("all");
+
+  useEffect(() => {
+    if (activeFilter == "all") {
+      setItems(loadItems)
+    } else {
+      const newItems = loadItems.filter((item) => {
+        if (activeFilter == "less-10") {
+          return item.price < 10;
+        } else if (activeFilter == "less-100") {
+          return item.price < 100;
+         } else if (activeFilter == "greater-100") {
+          return item.price >= 100;
+         }
+      });
+
+      setItems(newItems)
+    }
+
+  }, [activeFilter]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  <Box w="container.lg" margin="auto">
+    <Filters activeFilter={activeFilter} 
+    handleFilterChange={(newFilter) => setActiveFilter(newFilter)}
+    />
+    {items.map((item, key) => {
+      const {description, price, image} = item
+      return (
+        <Item key={key} description={description} price={price} image={image}/>
+      )
+    })}
+
+    </Box>
+  )}
 
 export default App;

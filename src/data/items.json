@@ -1,0 +1,24 @@
+[
+    {
+        "description": "El zacate de limón es una planta con aroma a cítricos originaria de la India la cual es rica en antioxidantes que ayudan a aliviar dolores estomacales.",
+        "price": 26.33,
+        "image": "https://i.picsum.photos/id/326/4928/3264.jpg?hmac=lJA_LBhuSUZpPbFFE6vjjSjIWzpaqjZpR9vV9MkZfJw"
+    },
+    {
+        "description": "El té desteinado son hojas de té con CO2 a alta presión; se utiliza en los tés de gran calidad, haciendo así que conserven intactas todas sus propiedades, aroma y sabor.",
+        "price": 99.99,
+        "image": "https://i.picsum.photos/id/365/5616/3744.jpg?hmac=m9Chefr19BelgN9G4ErJVFBbdvNmA_xlbd0CjATLwhM"
+    }
+    ,
+    {
+        "description": "Las fresas son ricas en fibra, antioxidantes, vitaminas y minerales, lo que ayuda a mantener un intestino saludable.",
+        "price": 149.99,
+        "image": "https://i.picsum.photos/id/429/4128/2322.jpg?hmac=_mAS4ToWrJBx29qI2YNbOQ9IyOevQr01DEuCbArqthc"
+    }
+    ,
+    {
+        "description": "El café espresso mejora la memoria a largo plazo. Lo primero que hace el shot es proporcionar esa inyección de cafeína que tan bien nos cae por las mañanas.",
+        "price": 5,
+        "image": "https://i.picsum.photos/id/431/5398/3599.jpg?hmac=bc325kFqsm626RGhgs-XwG_GFqd4x3VmXtramO12qL8"
+    }
+]
