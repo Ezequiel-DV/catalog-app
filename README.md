@@ -9,4 +9,4 @@ https://catalog-app-six.vercel.app/
 
 # Contacto:
 
-Si te gustó el proyecto y estás dispuesto a entrevistarme, estoy buscando trabajo como desarrollador Frontend. Podes contactarme a `delvitto.e@gmail.com`. Muchas gracias.
+Si te gustaron mis proyectos y estás dispuesto a entrevistarme, estoy buscando trabajo como desarrollador Frontend. Podes contactarme a delvitto.e@gmail.com. Muchas gracias.
