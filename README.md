@@ -4,6 +4,8 @@ Here you have an app created with React and Chakra UI. This project has a list o
 
 If you are interested in my job and projects, you can contact me by e-mail: delvittoezequiel@gmail.com
 
+Best regards!
+
 # ¡Hola, recuirters!
 Este es un proyecto que cree para que puedan ver mis habilidades con React y Chakra UI. El objetivo de este proyecto es tener un listado de productos que se carga desde un archivo items.json para luego mostrarlos en un listado. Además, tenemos algunos filtros que podemos utilizar desde el lado del cliente para que la lista no sea tan extensa o bien para encontrar el producto que buscamos.
 
